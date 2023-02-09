@@ -1,14 +1,13 @@
 # Titulo
 
-## TALLER 1: APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+## TALLER DISEÑO Y ESTRUCTURACIÓN DE APLICACIONES DISTRIBUIDAS EN INTERNET
 
 ### Juan David Martinez
 
 
 ## Descripción
 
-En este repositorio se encuentra un programa para consultar la información de películas de cine, la aplicación recibirá una frase de búsqueda del título y muestra los datos de la película correspondiente, para esto se utiliza el API gratuito de https://www.omdbapi.com
-
+En este repositorio se encuntra un servidor web que soporta múlltiples solicitudes seguidas
 
 ### Prerrequisitos
 
@@ -22,7 +21,7 @@ Para correr este se debe tener instalado:
 Primero debera desacargar el respositorio con el comando
 
 ```
-git clone https://github.com/Juanda171217/labArep1
+git clone https://github.com/Juanda171217/labArep2
 ```
 
 Luego para ejecutarlo, debe utilizar el comando
@@ -31,12 +30,8 @@ Luego para ejecutarlo, debe utilizar el comando
 mvn clean package exec:java -D "exec.mainClass"="edu.escuelaing.arem.HttpServer"
 ```
 
-Al terminar esta intruccion podra ir a cualquier navegador y acceder con la ruta http://localhost:38000
+Al terminar esta intruccion podra ir a cualquier navegador y acceder con la ruta http://localhost:34000
 
 
 ## Estructura de Archivos
 
-[![po.png](https://i.postimg.cc/Mp1sQShq/po.png)](https://postimg.cc/w1T5CSqG)
-
-
-[![ima1.png](https://i.postimg.cc/HsqZnxv6/ima1.png)](https://postimg.cc/9rBtNWh9)
